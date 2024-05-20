@@ -12,7 +12,9 @@ Steps to setup into your system :
 
 3. Run "npm i" into terminal to install all dependencies.
 4. Following are the curl commands to call the API Endpoints for CRUD operations :
+
    ** You can also execute these API Endpoints using Postman Application.
+
    ** Ensure you follow proper formats to insert record without any validation error.
 
    VALIDATIONS :
