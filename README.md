@@ -30,29 +30,29 @@ Steps to setup into your system :
 
 a) GET Method to fetch all records:
 
-curl -Method GET http://localhost:3000/getAll
+ >> curl -Method GET http://localhost:3000/getAll
 
 b) POST Method to add new record:
 
 e.g. : 
 
-curl -Method POST http://localhost:3000/add -Headers @{"Content-Type"="application/json"} -Body '{"firstName": "David", "lastName": "Jones", "phone": "+918212345674", "email": "test@test.com", "role": "admin"}'
+ >> curl -Method POST http://localhost:3000/add -Headers @{"Content-Type"="application/json"} -Body '{"firstName": "David", "lastName": "Jones", "phone": "+918212345674", "email": "test@test.com", "role": "admin"}'
 
 c) PUT Method to update existing record using "_id" property:
 
-curl -Method PUT http://localhost:3000/update?_id=ENTER_ID_HERE -Headers @{"Content-Type"="application/json"} -Body '{"firstName": "Updated David", "lastName": "Updated Jones"}'
+ >> curl -Method PUT http://localhost:3000/update?_id=ENTER_ID_HERE -Headers @{"Content-Type"="application/json"} -Body '{"firstName": "Updated David", "lastName": "Updated Jones"}'
 
 e.g. : 
 
-curl -Method PUT http://localhost:3000/update?_id=664b6ad8504b80c03bee4c39 -Headers @{"Content-Type"="application/json"} -Body '{"firstName": "Updated David", "lastName": "Updated Jones"}'
+ >> curl -Method PUT http://localhost:3000/update?_id=664b6ad8504b80c03bee4c39 -Headers @{"Content-Type"="application/json"} -Body '{"firstName": "Updated David", "lastName": "Updated Jones"}'
 
 d) DELETE Method to delete existing record using "_id" property:
 
-curl -Method DELETE http://localhost:3000/delete?_id=ENTER_ID_HERE -Headers @{"Content-Type"="application/json"}
+ >> curl -Method DELETE http://localhost:3000/delete?_id=ENTER_ID_HERE -Headers @{"Content-Type"="application/json"}
 
 e.g. : 
 
-curl -Method DELETE http://localhost:3000/delete?_id=664b6ad8504b80c03bee4c39 -Headers @{"Content-Type"="application/json"}
+ >> curl -Method DELETE http://localhost:3000/delete?_id=664b6ad8504b80c03bee4c39 -Headers @{"Content-Type"="application/json"}
 
 If the API is executed successfully, it will give response. Else if any validations, it will throw error.
 
