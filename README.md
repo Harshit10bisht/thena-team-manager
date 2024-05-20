@@ -19,15 +19,15 @@ Steps to setup into your system :
 
    VALIDATIONS :
 
-   firstName : mandatory and should be of length [2-100],
+   •firstName : mandatory and should be of length [2-100],
 
-   lastName : mandatory and should be of length [2-100],
+   •lastName : mandatory and should be of length [2-100],
 
-   phone : mandatory and should be a valid phone number as per npm validator module (see link https://github.com/validatorjs/validator.js/blob/master/src/lib/isMobilePhone.js),
+   •phone : mandatory and should be a valid phone number as per npm validator module (see link https://github.com/validatorjs/validator.js/blob/master/src/lib/isMobilePhone.js),
 
-   email : mandatory and should be a valid email address as per npm validator module (see link https://github.com/validatorjs/validator.js/blob/master/src/lib/isEmail.js),
+   •email : mandatory and should be a valid email address as per npm validator module (see link https://github.com/validatorjs/validator.js/blob/master/src/lib/isEmail.js),
 
-   role: mandatory and should either be "admin" or "user"
+   •role: mandatory and should either be "admin" or "user"
 
 a) GET Method to fetch all records:
 
