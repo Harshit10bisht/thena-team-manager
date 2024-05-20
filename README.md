@@ -2,7 +2,7 @@ Backend Application : Performs CRUD operations regarding a team player in MongoD
 
 Used Technologies : Node.js, Express.js, MongoDB, Mongoose, Validator. 
 
-Steps to setup into your system :
+Steps to setup into your system : 
 
 1. First clone the repository into your local system.
 2. Create a .env file and copy this into it :
